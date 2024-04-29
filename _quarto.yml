@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Funathon 2023"
+  title: "Funathon 2024"
   navbar:
     left:
       - href: index.qmd
@@ -13,10 +13,6 @@ format:
   html:
     theme:
       - cosmo
-    css:
-      - styles.css
-      - assets/fontawesome.css
-      - assets/latex-fontsize.css
     toc: true
 
 

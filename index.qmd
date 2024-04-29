@@ -1,6 +1,6 @@
 ---
 title: "Funathon 2024"
-subtitle: "Recensement des sujets"
+subtitle: "Décollage imminent pour la data science"
 ---
 
 Cette page recense les ressources préparées par les organisateurs sur les __4 sujets proposés__
