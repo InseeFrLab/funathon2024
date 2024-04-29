@@ -1,0 +1,31 @@
+---
+title: "About"
+---
+
+Ce site web est un compagnon du hackathon non compétitif 
+proposé par l'Insee et la Direction générale de l'aviation civile sur le thème __"Décollage imminent pour la data science"__.
+
+## Qu'est-ce que le Funathon ?
+
+À mi-chemin entre une session de formation et un hackathon, le Funathon vise à proposer aux statisticiens du Service Statistique Public une occasion d’apprendre et de mettre en pratique les méthodes de data science (machine learning, analyses de données textuelles, analyses géographiques, visualisation des données...) dans une ambiance collaborative et bienveillante.
+
+Les applications se feront sous {{< fa brands r-project >}} et {{< fa brands python >}} sur la plateforme `SSPCloud`. Pendant ces deux jours, il sera possible de mener des projets pas à pas grâce à des _notebooks_ détaillés mis à disposition par les organisateurs (situation adaptée aux débutants) ou d’avancer de façon plus autonome à partir de notebooks moins détaillés (situation adaptée aux agents plus avancés). Pendant l’ensemble de l’événement, l’équipe d’organisation sera disponible pour répondre aux questions et aider les participants en cas de difficulté.
+
+## Déroulement de l'événement
+
+L'événement dure 2 jours, les __25 et 26 juin__. En autonomie par équipe, vous bénéficierez tout de même pendant la durée de cet événement de canaux de communication avec les organisateurs (Zoom et Tchap) ouverts pour éviter tout blocage ou pour poser des questions de compréhension. 
+
+En amont de l'événement, une présentation de l'événement, des sujets et de l'environnement de travail (le SSPCloud) aura lieu le __18 juin, 15h-17h__. 
+
+A l'issue de l'événement, tout le contenu ici présent restera disponible. 
+
+## Participer
+
+L'ensemble des contenus de cet événement est disponible de manière libre, pendant l'événement mais aussi à l'issue de celui-ci.
+
+Il est possible de participer:
+
+* En s'inscrivant de manière formelle, par le biais de [SIFOR](https://formation.insee.fr/) pour les agents Insee ou
+par l'intermédiaire des référents formations pour les agents des services statistiques ministériels ;
+* En participant de manière informelle, sans inscription.
+
