@@ -3,6 +3,8 @@ title: "Funathon 2024"
 subtitle: "Décollage imminent pour la data science"
 ---
 
+![](img/best_image_funathon.png){height="400" fig-align="center"}
+
 Cette page recense les ressources préparées par les organisateurs sur les __4 sujets proposés__
 lors de l'événement 2024.
 
