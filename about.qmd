@@ -2,6 +2,8 @@
 title: "About"
 ---
 
+![](img/best_image_funathon.png){height="400" fig-align="center"}
+
 Ce site web est un compagnon du hackathon non compétitif 
 proposé par l'Insee et la Direction générale de l'aviation civile sur le thème __"Décollage imminent pour la data science"__.
 
