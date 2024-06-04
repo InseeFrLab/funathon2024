@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Funathon 2024 - Visualisation des émissions de C02 de liaisons aériennes</title>
+<title>Visualisation des émissions de CO2 de liaisons aériennes</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -114,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Visualisation des émissions de C02 de liaisons aériennes</h1>
+<h1 class="title">Visualisation des émissions de CO2 de liaisons aériennes</h1>
   <div class="quarto-categories">
     <div class="quarto-category">TODO</div>
   </div>
@@ -134,19 +134,19 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br> Visualiser les émissions de C02 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.</p>
+<p><br> Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.</p>
 <!--
 ## Objectifs
 
-Visualiser les émissions de C02 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
+Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
 
 L'étude portera sur les liaisons aériennes entre les 10 plus grandes agglomérations de la Métropole française.
-Elle permettra de quantifier et de localiser les émissions de C02 évitées avec des mesures hypothétiques d'interdictions de liaisons aériennes lorsqu'une alternative ferroviaire existe en moins de 3h30, 4h30, 5h30...
+Elle permettra de quantifier et de localiser les émissions de CO2 évitées avec des mesures hypothétiques d'interdictions de liaisons aériennes lorsqu'une alternative ferroviaire existe en moins de 3h30, 4h30, 5h30...
 
 En travaillant sur ce sujet vous apprendrez à :
 
 -   Interroger l'API de [TravelTime](https://traveltime.com/) pour obtenir des données de temps de trajet
--   Utiliser des données de trafic aérien pour calculer des émissions de C02
+-   Utiliser des données de trafic aérien pour calculer des émissions de CO2
 -   Créer une carte interactive avec le package leaflet et des fonds de carte de [Stadia Maps](https://stadiamaps.com/)
 
 ## Déroulement du sujet
@@ -242,7 +242,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/InseeFrLab\.github\.io\/funathon2024\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
