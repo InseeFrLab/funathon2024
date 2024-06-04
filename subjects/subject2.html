@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Funathon 2024</title>
+<title>Un tableau de bord du trafic aérien avec R ou Python</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,65 +68,7 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-sample-listings .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-image','listing-title','listing-github',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-image","listing-number","listing-categories","listing-github","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-sample-listings'] = new List('listing-sample-listings', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -137,7 +79,7 @@ window.Quarto = {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Funathon 2024</span>
     </a>
   </div>
@@ -148,11 +90,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -168,15 +110,17 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Analyse de sentiment">Analyse de sentiment <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NLP">NLP <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SpaCy">SpaCy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TODO">TODO <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Web Scraping">Web Scraping <span class="quarto-category-count">(1)</span></div></div></div>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Funathon 2024</h1>
-<p class="subtitle lead">Décollage imminent pour la data science</p>
-</div>
+<h1 class="title">Un tableau de bord du trafic aérien avec R ou Python</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">TODO</div>
+  </div>
+  </div>
 
 
 
@@ -192,218 +136,21 @@ window.Quarto = {
 </header>
 
 
-<!-- ![](img/best_image_funathon.png){height="400" fig-align="center"} -->
-<p>Cette page recense les ressources préparées par les organisateurs sur les <strong>4 sujets proposés</strong> lors de l’événement 2024.</p>
-<p>L’événement aura lieu les <strong>25 et 26 juin</strong>. Pour en savoir plus sur les modalités d’inscription, consulter la page <a href="./about.html">A propos</a>.</p>
-<p><br></p>
-<div id="listing-sample-listings" class="quarto-listing quarto-listing-container-custom">
+<p><br> Amener, pas à pas, à la conception voire à la mise à disposition d’un tableau de bord du trafic aérien avec <i class="fa-brands fa-r-project" aria-label="r-project"></i>.</p>
+<!--
+L'objectif de ce tutoriel est d'amener, pas à pas, à la conception voire à la mise à disposition d'un tableau de bord du trafic aérien avec .
 
-<link href="./assets/css/all.css" rel="stylesheet">
+L'application interactive proposée présentera un nombre de fonctionnalités limitées afin de se concentrer sur la démarche.
+L'objectif est de construire progressivement celle-ci en suivant les étapes logiques du déroulement d'un projet de développement d'application interactive : découverte et exploration des données, création de statistiques descriptives et de visualisations simples sur un jeu de données, extension du nombre de visualisations accessibles par la création d'une application.
+Ce tutoriel est également l'occasion de découvrir quelques bonnes pratiques de programmation avec `R` afin de rendre les projets plus fiables, évolutifs et lisibles. 
 
-<div class="list grid quarto-listing-cols-2">
+Les exercices de conception pas à pas de l'application s'adressent aussi bien à des débutants qu'à des utilisateurs plus experts.
+La mise à disposition, c'est-à-dire la mise en production de cette application, fait appel à des concepts et outils plus avancés et est donc moins accessible à des débutants.
 
-  <div class="g-col-1" data-index="0" data-categories="TODO" data-listing-file-modified-sort="1717494225262" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
-    <a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link"> <!-- Added link wrapper -->
-      </a><div class="quarto-grid-item card h-100 card-left"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-        
-          <p class="card-img-top">
-            <img src="./img/Aspect_de_la_carte.png" class="thumbnail-image card-img" style="height: auto;" alt="">
-          </p>
-         
-        
-          </a><div class="card-body post-contents"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-            <h5 class="no-anchor card-title listing-title">Visualisation des émissions de C02 de liaisons aériennes</h5>
-            <div class="card-subtitle listing-subtitle"></div>
-
-            
-              <div class="card-text listing-description delink"><br> Visualiser les émissions de C02 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.</div>
-            
-
-            
-            
-              <div class="card-attribution card-text-small justify">
-                <div class="listing-author"></div>
-                <div class="listing-date"></div>
-              </div>
-            
-            <style>
-              .listing-categories .listing-category .listing-href {
-                color: inherit; /* blue colors for links too */
-                text-decoration: inherit; /* no underline */
-              }
-            </style>
-            </a><div class="listing-categories" style="padding-top: 1em;"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-              
-                </a><div class="listing-category"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-                  </a><a class="listing-href" href="https://github.com/InseeFrLab/funathon2024_sujet1" target="_blank" rel="noopener">Github <i class="fa-brands fa-github"></i></a>
-                </div>
-              
-              
-                <div class="listing-category">
-                  <a class="listing-href" href="[object Object]" target="_blank" rel="noopener">Website <i class="fa-brands fa-firefox-browser"></i></a>
-                </div>
-                          
-            </div>
-          </div>
-        
-      </div>
-     <!-- Added link wrapper -->
-  </div>
-
-  <div class="g-col-1" data-index="1" data-categories="TODO" data-listing-file-modified-sort="1717494225262" data-listing-reading-time-sort="2" data-listing-word-count-sort="219">
-    <a href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener" class="grid-item-link"> <!-- Added link wrapper -->
-      </a><div class="quarto-grid-item card h-100 card-left"><a href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener" class="grid-item-link">
-        
-          <p class="card-img-top">
-            <img src="./img/best_image_funathon.png" class="thumbnail-image card-img" style="height: auto;" alt="">
-          </p>
-         
-        
-          </a><div class="card-body post-contents"><a href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener" class="grid-item-link">
-            <h5 class="no-anchor card-title listing-title">Un tableau de bord du trafic aérien avec R ou Python</h5>
-            <div class="card-subtitle listing-subtitle"></div>
-
-            
-              <div class="card-text listing-description delink"><br> Amener, pas à pas, à la conception voire à la mise à disposition d’un tableau de bord du trafic aérien avec <i class="fa-brands fa-r-project" aria-label="r-project"></i>.</div>
-            
-
-            
-            
-              <div class="card-attribution card-text-small justify">
-                <div class="listing-author"></div>
-                <div class="listing-date"></div>
-              </div>
-            
-            <style>
-              .listing-categories .listing-category .listing-href {
-                color: inherit; /* blue colors for links too */
-                text-decoration: inherit; /* no underline */
-              }
-            </style>
-            </a><div class="listing-categories" style="padding-top: 1em;"><a href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener" class="grid-item-link">
-              
-                </a><div class="listing-category"><a href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener" class="grid-item-link">
-                  </a><a class="listing-href" href="https://github.com/InseeFrLab/funathon2024_sujet2/" target="_blank" rel="noopener">Github <i class="fa-brands fa-github"></i></a>
-                </div>
-              
-              
-                <div class="listing-category">
-                  <a class="listing-href" href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener">Website <i class="fa-brands fa-firefox-browser"></i></a>
-                </div>
-                          
-            </div>
-          </div>
-        
-      </div>
-     <!-- Added link wrapper -->
-  </div>
-
-  <div class="g-col-1" data-index="2" data-categories="TODO" data-listing-file-modified-sort="1717494225262" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-    <a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link"> <!-- Added link wrapper -->
-      </a><div class="quarto-grid-item card h-100 card-left"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-        
-          <p class="card-img-top">
-            <img src="./img/best_image_funathon.png" class="thumbnail-image card-img" style="height: auto;" alt="">
-          </p>
-         
-        
-          </a><div class="card-body post-contents"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-            <h5 class="no-anchor card-title listing-title">Flightradar24</h5>
-            <div class="card-subtitle listing-subtitle"></div>
-
-            
-              <div class="card-text listing-description delink"><br> TODO</div>
-            
-
-            
-            
-              <div class="card-attribution card-text-small justify">
-                <div class="listing-author"></div>
-                <div class="listing-date"></div>
-              </div>
-            
-            <style>
-              .listing-categories .listing-category .listing-href {
-                color: inherit; /* blue colors for links too */
-                text-decoration: inherit; /* no underline */
-              }
-            </style>
-            </a><div class="listing-categories" style="padding-top: 1em;"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-              
-                </a><div class="listing-category"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-                  </a><a class="listing-href" href="https://github.com/InseeFrLab/funathon2024_sujet3" target="_blank" rel="noopener">Github <i class="fa-brands fa-github"></i></a>
-                </div>
-              
-              
-                <div class="listing-category">
-                  <a class="listing-href" href="[object Object]" target="_blank" rel="noopener">Website <i class="fa-brands fa-firefox-browser"></i></a>
-                </div>
-                          
-            </div>
-          </div>
-        
-      </div>
-     <!-- Added link wrapper -->
-  </div>
-
-  <div class="g-col-1" data-index="3" data-categories="Python,Web Scraping,Analyse de sentiment,NLP,SpaCy" data-listing-file-modified-sort="1717494225262" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
-    <a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link"> <!-- Added link wrapper -->
-      </a><div class="quarto-grid-item card h-100 card-left"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-        
-          <p class="card-img-top">
-            <img src="./img/image_sujet_4.jpg" class="thumbnail-image card-img" style="height: auto;" alt="">
-          </p>
-         
-        
-          </a><div class="card-body post-contents"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-            <h5 class="no-anchor card-title listing-title">Analyse textuelle des commentaires clients d'agences de voyage en ligne</h5>
-            <div class="card-subtitle listing-subtitle"></div>
-
-            
-              <div class="card-text listing-description delink"><br> Analyse de sentiments dans des commentaires clients à partir de données scrapées sur Trustpilot</div>
-            
-
-            
-            
-              <div class="card-attribution card-text-small justify">
-                <div class="listing-author"></div>
-                <div class="listing-date"></div>
-              </div>
-            
-            <style>
-              .listing-categories .listing-category .listing-href {
-                color: inherit; /* blue colors for links too */
-                text-decoration: inherit; /* no underline */
-              }
-            </style>
-            </a><div class="listing-categories" style="padding-top: 1em;"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-              
-                </a><div class="listing-category"><a href="[object Object]" target="_blank" rel="noopener" class="grid-item-link">
-                  </a><a class="listing-href" href="https://github.com/InseeFrLab/funathon2024_sujet4" target="_blank" rel="noopener">Github <i class="fa-brands fa-github"></i></a>
-                </div>
-              
-              
-                <div class="listing-category">
-                  <a class="listing-href" href="[object Object]" target="_blank" rel="noopener">Website <i class="fa-brands fa-firefox-browser"></i></a>
-                </div>
-                          
-            </div>
-          </div>
-        
-      </div>
-     <!-- Added link wrapper -->
-  </div>
-
-</div>
-
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-<p><br></p>
-<p>L’ensemble des ressources de cet événement est disponible via le <a href="https://github.com/InseeFrLab/funathon2024"><code>Github InseeFrLab</code></a></p>
-<p>Les ressources de l’édition 2023 sur le thème “Du champ à l’assiette” sont disponibles <a href="https://inseefrlab.github.io/funathon2023/">sur ce site</a>.</p>
-
+::: callout-tip
+Si vous désirez aller plus loin sur certaines dimensions de ce projet, vous pouvez tout à fait essayer de vous-mêmes d'introduire de nouveaux ingrédients dans l'application que vous développez.
+:::
+-->
 
 
 
@@ -489,7 +236,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/InseeFrLab\.github\.io\/funathon2024\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }

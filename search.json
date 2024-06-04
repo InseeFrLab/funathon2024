@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "subjects/subject1.html",
+    "href": "subjects/subject1.html",
+    "title": "Visualisation des émissions de C02 de liaisons aériennes",
+    "section": "",
+    "text": "Visualiser les émissions de C02 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires."
+  },
+  {
+    "objectID": "subjects/subject3.html",
+    "href": "subjects/subject3.html",
+    "title": "Flightradar24",
+    "section": "",
+    "text": "TODO"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Funathon 2024",
     "section": "",
-    "text": "Cette page recense les ressources préparées par les organisateurs sur les 4 sujets proposés lors de l’événement 2024.\nL’événement aura lieu les 25 et 26 juin. Pour en savoir plus sur les modalités d’inscription, consulter la page A propos.\nCe site va évoluer pour intégrer les sujets, revenez le consulter avant l’événement !\nLes ressources de l’édition 2023 sur le thème “Du champ à l’assiette” sont disponibles sur ce site."
+    "text": "Cette page recense les ressources préparées par les organisateurs sur les 4 sujets proposés lors de l’événement 2024.\nL’événement aura lieu les 25 et 26 juin. Pour en savoir plus sur les modalités d’inscription, consulter la page A propos.\n\n\n\n\n\n\n\n  \n     \n      \n        \n          \n            \n          \n         \n        \n          \n            Visualisation des émissions de C02 de liaisons aériennes\n            \n\n            \n              \n            \n\n            \n            \n              \n                \n                \n              \n            \n            \n            \n              \n                \n                  Github \n                \n              \n              \n                \n                  Website \n                \n                          \n            \n          \n        \n      \n     \n  \n\n  \n     \n      \n        \n          \n            \n          \n         \n        \n          \n            Un tableau de bord du trafic aérien avec R ou Python\n            \n\n            \n              \n            \n\n            \n            \n              \n                \n                \n              \n            \n            \n            \n              \n                \n                  Github \n                \n              \n              \n                \n                  Website \n                \n                          \n            \n          \n        \n      \n     \n  \n\n  \n     \n      \n        \n          \n            \n          \n         \n        \n          \n            Flightradar24\n            \n\n            \n              \n            \n\n            \n            \n              \n                \n                \n              \n            \n            \n            \n              \n                \n                  Github \n                \n              \n              \n                \n                  Website \n                \n                          \n            \n          \n        \n      \n     \n  \n\n  \n     \n      \n        \n          \n            \n          \n         \n        \n          \n            Analyse textuelle des commentaires clients d'agences de voyage en ligne\n            \n\n            \n              \n            \n\n            \n            \n              \n                \n                \n              \n            \n            \n            \n              \n                \n                  Github \n                \n              \n              \n                \n                  Website \n                \n                          \n            \n          \n        \n      \n     \n  \n\n\n\n\nNo matching items\n\n\n\nL’ensemble des ressources de cet événement est disponible via le Github InseeFrLab\nLes ressources de l’édition 2023 sur le thème “Du champ à l’assiette” sont disponibles sur ce site."
   },
   {
     "objectID": "about.html",
@@ -33,5 +47,19 @@
     "title": "About",
     "section": "Participer",
     "text": "Participer\nL’ensemble des contenus de cet événement est disponible de manière libre, pendant l’événement mais aussi à l’issue de celui-ci.\nIl est possible de participer:\n\nEn s’inscrivant de manière formelle, par le biais de SIFOR pour les agents Insee ou par l’intermédiaire des référents formations pour les agents des services statistiques ministériels ;\nEn participant de manière informelle, sans inscription."
+  },
+  {
+    "objectID": "subjects/subject4.html",
+    "href": "subjects/subject4.html",
+    "title": "Analyse textuelle des commentaires clients d’agences de voyage en ligne",
+    "section": "",
+    "text": "Analyse de sentiments dans des commentaires clients à partir de données scrapées sur Trustpilot"
+  },
+  {
+    "objectID": "subjects/subject2.html",
+    "href": "subjects/subject2.html",
+    "title": "Un tableau de bord du trafic aérien avec R ou Python",
+    "section": "",
+    "text": "Amener, pas à pas, à la conception voire à la mise à disposition d’un tableau de bord du trafic aérien avec ."
   }
 ]
