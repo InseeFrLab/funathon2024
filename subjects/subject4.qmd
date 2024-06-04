@@ -1,0 +1,16 @@
+---
+title: "Analyse textuelle des commentaires clients d'agences de voyage en ligne"
+image: ../img/image_sujet_4.jpg
+number: 4
+categories:
+    - Python
+    - Web Scraping
+    - Analyse de sentiment
+    - NLP
+    - SpaCy
+github: https://github.com/InseeFrLab/funathon2024_sujet4
+# website: https://github.com/InseeFrLab/funathon2024_sujet4
+---
+
+<br>
+Analyse de sentiments dans des commentaires clients à partir de données scrapées sur Trustpilot

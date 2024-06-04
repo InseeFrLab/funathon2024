@@ -1,15 +1,30 @@
 ---
 title: "Funathon 2024"
 subtitle: "Décollage imminent pour la data science"
+listing:
+    id: sample-listings
+    contents: subjects
+    type: grid
+    sort: "number"
+    categories: true
+    fields: [image, title, github]
+    template: cards.ejs
 ---
 
-![](img/best_image_funathon.png){height="400" fig-align="center"}
+<!-- ![](img/best_image_funathon.png){height="400" fig-align="center"} -->
 
-Cette page recense les ressources préparées par les organisateurs sur les __4 sujets proposés__
-lors de l'événement 2024.
+Cette page recense les ressources préparées par les organisateurs sur les __4 sujets proposés__ lors de l'événement 2024.
 
-L'événement aura lieu les __25 et 26 juin__. Pour en savoir plus sur les modalités d'inscription, consulter la page [A propos](/about.qmd).
+L'événement aura lieu les __25 et 26 juin__.
+Pour en savoir plus sur les modalités d'inscription, consulter la page [A propos](/about.qmd).
 
-__Ce site va évoluer pour intégrer les sujets, revenez le consulter avant l'événement !__
+<br>
+
+::: {#sample-listings}
+:::
+
+<br>
+
+L'ensemble des ressources de cet événement est disponible via le [`Github InseeFrLab`](https://github.com/InseeFrLab/funathon2024)
 
 Les ressources de l'édition 2023 sur le thème "Du champ à l'assiette" sont disponibles [sur ce site](https://inseefrlab.github.io/funathon2023/).
