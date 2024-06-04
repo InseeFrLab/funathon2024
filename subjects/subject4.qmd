@@ -9,7 +9,7 @@ categories:
     - NLP
     - SpaCy
 github: https://github.com/InseeFrLab/funathon2024_sujet4
-# website: https://github.com/InseeFrLab/funathon2024_sujet4
+website: https://github.com/InseeFrLab/funathon2024_sujet4
 ---
 
 <br>

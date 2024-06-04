@@ -1,28 +1,28 @@
 ---
-title: "Visualisation des émissions de C02 de liaisons aériennes"
+title: "Visualisation des émissions de CO2 de liaisons aériennes"
 image: ../img/Aspect_de_la_carte.png
 number: 1
 categories:
     - TODO
 github: https://github.com/InseeFrLab/funathon2024_sujet1
-# website: https://github.com/InseeFrLab/funathon2024_sujet1
+website: https://github.com/InseeFrLab/funathon2024_sujet1
 ---
 
 <br>
-Visualiser les émissions de C02 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
+Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
 
 <!--
 ## Objectifs
 
-Visualiser les émissions de C02 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
+Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
 
 L'étude portera sur les liaisons aériennes entre les 10 plus grandes agglomérations de la Métropole française.
-Elle permettra de quantifier et de localiser les émissions de C02 évitées avec des mesures hypothétiques d'interdictions de liaisons aériennes lorsqu'une alternative ferroviaire existe en moins de 3h30, 4h30, 5h30...
+Elle permettra de quantifier et de localiser les émissions de CO2 évitées avec des mesures hypothétiques d'interdictions de liaisons aériennes lorsqu'une alternative ferroviaire existe en moins de 3h30, 4h30, 5h30...
 
 En travaillant sur ce sujet vous apprendrez à :
 
 -   Interroger l'API de [TravelTime](https://traveltime.com/) pour obtenir des données de temps de trajet
--   Utiliser des données de trafic aérien pour calculer des émissions de C02
+-   Utiliser des données de trafic aérien pour calculer des émissions de CO2
 -   Créer une carte interactive avec le package leaflet et des fonds de carte de [Stadia Maps](https://stadiamaps.com/)
 
 ## Déroulement du sujet

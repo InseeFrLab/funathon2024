@@ -5,7 +5,7 @@ number: 3
 categories:
     - TODO
 github: https://github.com/InseeFrLab/funathon2024_sujet3
-# website: https://github.com/InseeFrLab/funathon2024_sujet3
+website: https://github.com/InseeFrLab/funathon2024_sujet3
 ---
 
 <br>

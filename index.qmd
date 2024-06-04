@@ -25,6 +25,6 @@ Pour en savoir plus sur les modalités d'inscription, consulter la page [A propo
 
 <br>
 
-L'ensemble des ressources de cet événement est disponible via le [`Github InseeFrLab`](https://github.com/InseeFrLab/funathon2024)
+L'ensemble des ressources de cet événement est disponible via le [`Github InseeFrLab`](https://github.com/InseeFrLab/funathon2024).
 
 Les ressources de l'édition 2023 sur le thème "Du champ à l'assiette" sont disponibles [sur ce site](https://inseefrlab.github.io/funathon2023/).
