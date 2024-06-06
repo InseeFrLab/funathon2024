@@ -1,5 +1,5 @@
 ---
-title: "Analyse textuelle des commentaires clients d'agences de voyage en ligne"
+title: "Analyse textuelle de commentaires clients"
 image: ../img/image_sujet_4.jpg
 number: 4
 categories:
@@ -13,4 +13,4 @@ website: https://github.com/InseeFrLab/funathon2024_sujet4
 ---
 
 <br>
-Analyse de sentiments dans des commentaires clients à partir de données scrapées sur Trustpilot
+Découverte des enjeux du nettoyage de champs textuels et de l'analyse de sentiments à partir de données scrapées sur Trustpilot
