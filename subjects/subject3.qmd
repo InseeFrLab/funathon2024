@@ -1,12 +1,15 @@
 ---
 title: "Flightradar24"
-image: ../img/best_image_funathon.png
+image: ../img/sujet3.png
 number: 3
 categories:
-    - TODO
+    - Python
+    - Dash
+    - Visualisation
+    - Déploiement d'application
 github: https://github.com/InseeFrLab/funathon2024_sujet3
 website: https://github.com/InseeFrLab/funathon2024_sujet3
 ---
 
 <br>
-TODO
+Reconstruction de l’interface utilisateur de FlightRadar24 avec Python {{< fa brands python >}}.
