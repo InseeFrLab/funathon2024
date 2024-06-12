@@ -1,6 +1,6 @@
 ---
 title: "Flightradar24"
-image: ../img/sujet3.png
+image: ../img/sujet3.jpg
 number: 3
 categories:
     - Python
