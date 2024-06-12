@@ -8,7 +8,7 @@ categories:
     - Visualisation
     - Déploiement d'application
 github: https://github.com/InseeFrLab/funathon2024_sujet3
-website: https://github.com/InseeFrLab/funathon2024_sujet3
+website: https://flightradar-ui-demo.lab.sspcloud.fr
 ---
 
 <br>
