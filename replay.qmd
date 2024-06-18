@@ -1,0 +1,18 @@
+---
+title: "Replay du 18/06"
+---
+
+Retour sur la session de présentation :
+
+<br>
+
+{{< video src="https://minio.lab.sspcloud.fr/projet-funathon/2024/diffusion/20240618_session_presentation.mp4" controls="yes" >}}
+
+<br>
+
+Au programme :
+
+- Présentation du principe du Funathon (visio & échanges sur Tchap, sujets guidés…)
+- Présentation des sujets
+- Présentation du SSPCloud
+- Démonstration Git via RStudio sur le SSPCloud

@@ -10,6 +10,7 @@ website:
       - about.qmd
       - href: https://inseefrlab.github.io/funathon2024_slides/
         text: Slides de présentation
+      - replay.qmd
 
 format:
   html:
