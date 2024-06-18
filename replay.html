@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Visualisation des émissions de CO2 de liaisons aériennes</title>
+<title>Funathon 2024 - Replay du 18/06</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,22 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/videojs/video.min.js"></script>
+<link href="site_libs/quarto-contrib/videojs/video-js.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +79,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Funathon 2024</span>
     </a>
   </div>
@@ -88,11 +90,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
@@ -100,7 +102,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Slides de présentation</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../replay.html"> 
+    <a class="nav-link active" href="./replay.html" aria-current="page"> 
 <span class="menu-text">Replay du 18/06</span></a>
   </li>  
 </ul>
@@ -122,13 +124,8 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Visualisation des émissions de CO2 de liaisons aériennes</h1>
-  <div class="quarto-categories">
-    <div class="quarto-category">R</div>
-    <div class="quarto-category">Visualisation</div>
-    <div class="quarto-category">API</div>
-  </div>
-  </div>
+<h1 class="title">Replay du 18/06</h1>
+</div>
 
 
 
@@ -144,29 +141,17 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><br> Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires. <br></p>
-<!--
-## Objectifs
-
-Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
-
-L'étude portera sur les liaisons aériennes entre les 10 plus grandes agglomérations de la Métropole française.
-Elle permettra de quantifier et de localiser les émissions de CO2 évitées avec des mesures hypothétiques d'interdictions de liaisons aériennes lorsqu'une alternative ferroviaire existe en moins de 3h30, 4h30, 5h30...
-
-En travaillant sur ce sujet vous apprendrez à :
-
--   Interroger l'API de [TravelTime](https://traveltime.com/) pour obtenir des données de temps de trajet
--   Utiliser des données de trafic aérien pour calculer des émissions de CO2
--   Créer une carte interactive avec le package leaflet et des fonds de carte de [Stadia Maps](https://stadiamaps.com/)
-
-## Déroulement du sujet
-
-1.  Interaction avec l'API de routage de TravelTime
-2.  Récupération des coordonnées des villes françaises
-3.  Obtention du temps de transport entre 2 villes
-4.  Téléchargement et traitement des données de trafic aérien entre deux villes
-5.  Datavisualisation des données sur une carte avec le package leaflet
--->
+<p>Retour sur la session de présentation :</p>
+<p><br></p>
+<div class="quarto-video"><video id="video_shortcode_videojs_video1" class="video-js vjs-default-skin vjs-fluid" controls="" preload="auto" data-setup="{}" title=""><source src="https://minio.lab.sspcloud.fr/projet-funathon/2024/diffusion/20240618_session_presentation.mp4"></video></div>
+<p><br></p>
+<p>Au programme :</p>
+<ul>
+<li>Présentation du principe du Funathon (visio &amp; échanges sur Tchap, sujets guidés…)</li>
+<li>Présentation des sujets</li>
+<li>Présentation du SSPCloud</li>
+<li>Démonstration Git via RStudio sur le SSPCloud</li>
+</ul>
 
 
 
@@ -252,7 +237,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/InseeFrLab\.github\.io\/funathon2024\/");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -581,6 +566,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+<script>videojs(video_shortcode_videojs_video1);</script>
 
 
 
