@@ -1,6 +1,6 @@
 ---
 title: "Un tableau de bord du trafic aérien avec R ou Python"
-image: ../img/best_image_funathon.png
+image: ../img/kid_drawing.jfif
 number: 2
 categories:
     - TODO
@@ -9,19 +9,5 @@ website: https://inseefrlab.github.io/funathon2024_sujet2/
 ---
 
 <br>
-Amener, pas à pas, à la conception voire à la mise à disposition d'un tableau de bord du trafic aérien avec {{< fa brands r-project >}}.
+Amener, pas à pas, à la conception voire à la mise à disposition d'un tableau de bord du trafic aérien avec {{< fa brands r-project >}} ou {{< fa brands python >}}.
 
-<!--
-L'objectif de ce tutoriel est d'amener, pas à pas, à la conception voire à la mise à disposition d'un tableau de bord du trafic aérien avec {{< fa brands r-project >}}.
-
-L'application interactive proposée présentera un nombre de fonctionnalités limitées afin de se concentrer sur la démarche.
-L'objectif est de construire progressivement celle-ci en suivant les étapes logiques du déroulement d'un projet de développement d'application interactive : découverte et exploration des données, création de statistiques descriptives et de visualisations simples sur un jeu de données, extension du nombre de visualisations accessibles par la création d'une application.
-Ce tutoriel est également l'occasion de découvrir quelques bonnes pratiques de programmation avec `R` afin de rendre les projets plus fiables, évolutifs et lisibles. 
-
-Les exercices de conception pas à pas de l'application s'adressent aussi bien à des débutants qu'à des utilisateurs plus experts.
-La mise à disposition, c'est-à-dire la mise en production de cette application, fait appel à des concepts et outils plus avancés et est donc moins accessible à des débutants.
-
-::: callout-tip
-Si vous désirez aller plus loin sur certaines dimensions de ce projet, vous pouvez tout à fait essayer de vous-mêmes d'introduire de nouveaux ingrédients dans l'application que vous développez.
-:::
--->
