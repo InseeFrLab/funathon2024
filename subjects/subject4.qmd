@@ -10,7 +10,9 @@ categories:
     - SpaCy
 github: https://github.com/InseeFrLab/funathon2024_sujet4
 website: https://github.com/InseeFrLab/funathon2024_sujet4
+levels: ["Intermédiaire"]
 ---
 
 <br>
 Découverte des enjeux du nettoyage de champs textuels et de l'analyse de sentiments à partir de données scrapées sur Trustpilot
+<br>

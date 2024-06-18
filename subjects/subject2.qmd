@@ -6,8 +6,10 @@ categories:
     - TODO
 github: https://github.com/InseeFrLab/funathon2024_sujet2/
 website: https://inseefrlab.github.io/funathon2024_sujet2/
+levels: ["Débutant", "Intermédiaire", "Expert"]
 ---
 
 <br>
 Amener, pas à pas, à la conception voire à la mise à disposition d'un tableau de bord du trafic aérien avec {{< fa brands r-project >}} ou {{< fa brands python >}}.
+<br>
 

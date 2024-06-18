@@ -6,10 +6,12 @@ categories:
     - TODO
 github: https://github.com/InseeFrLab/funathon2024_sujet1
 website: https://github.com/InseeFrLab/funathon2024_sujet1
+levels: ["Débutant", "Intermédiaire"]
 ---
 
 <br>
 Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.
+<br>
 
 <!--
 ## Objectifs

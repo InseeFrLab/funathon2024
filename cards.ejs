@@ -21,6 +21,23 @@ const imgHeight = "100%";
     color: inherit; /* Use the current color, which is likely black */
     text-decoration: none; /* Remove underline */
   }
+  .level-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .level-debutant {
+    background-color: green;
+  }
+  .level-intermediaire {
+    background-color: yellow;
+    color: black; /* Black text on yellow background for better contrast */
+  }
+  .level-expert {
+    background-color: red;
+  }
 </style>
 
 <div class="list grid quarto-listing-cols-<%=cols%>">
@@ -42,6 +59,21 @@ const imgHeight = "100%";
 
             <% if ('description') { %>
               <div class="card-text listing-description delink custom-link"><%= item.description %></div>
+            <% } %>
+
+            <% if (item.levels) { %>
+              <br>
+              <div class="card-levels" style="margin-bottom: 1em;">
+                <% if (item.levels.includes('Débutant')) { %>
+                  <span class="level-button level-debutant">Débutant</span>
+                <% } %>
+                <% if (item.levels.includes('Intermédiaire')) { %>
+                  <span class="level-button level-intermediaire">Intermédiaire</span>
+                <% } %>
+                <% if (item.levels.includes('Expert')) { %>
+                  <span class="level-button level-expert">Expert</span>
+                <% } %>
+              </div>
             <% } %>
 
             <% 
