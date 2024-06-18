@@ -80,7 +80,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-image','listing-title','listing-github',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-image","listing-number","listing-categories","listing-github","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-image","listing-number","listing-categories","listing-github","listing-levels","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -205,11 +205,28 @@ window.Quarto = {
     color: inherit; /* Use the current color, which is likely black */
     text-decoration: none; /* Remove underline */
   }
+  .level-button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  .level-debutant {
+    background-color: green;
+  }
+  .level-intermediaire {
+    background-color: yellow;
+    color: black; /* Black text on yellow background for better contrast */
+  }
+  .level-expert {
+    background-color: red;
+  }
 </style>
 
 <div class="list grid quarto-listing-cols-2">
 
-  <div class="g-col-1" data-index="0" data-categories="TODO" data-listing-file-modified-sort="1718701862852" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
+  <div class="g-col-1" data-index="0" data-categories="TODO" data-listing-file-modified-sort="1718711340708" data-listing-reading-time-sort="1" data-listing-word-count-sort="189">
     <a href="https://github.com/InseeFrLab/funathon2024_sujet1" target="_blank" rel="noopener" class="grid-item-link custom-link"> <!-- Added custom-link class -->
       </a><div class="quarto-grid-item card h-100 card-left"><a href="https://github.com/InseeFrLab/funathon2024_sujet1" target="_blank" rel="noopener" class="grid-item-link custom-link">
         
@@ -223,7 +240,20 @@ window.Quarto = {
             <div class="card-subtitle listing-subtitle custom-link"></div>
 
             
-              <div class="card-text listing-description delink custom-link"><br> Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires.</div>
+              <div class="card-text listing-description delink custom-link"><br> Visualiser les émissions de CO2 liées à une mesure de restriction de liaison aérienne relativement à des durées de trajets ferroviaires. <br></div>
+            
+
+            
+              <br>
+              <div class="card-levels" style="margin-bottom: 1em;">
+                
+                  <span class="level-button level-debutant">Débutant</span>
+                
+                
+                  <span class="level-button level-intermediaire">Intermédiaire</span>
+                
+                
+              </div>
             
 
             
@@ -257,7 +287,7 @@ window.Quarto = {
      <!-- Added custom-link class -->
   </div>
 
-  <div class="g-col-1" data-index="1" data-categories="TODO" data-listing-file-modified-sort="1718701862852" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
+  <div class="g-col-1" data-index="1" data-categories="TODO" data-listing-file-modified-sort="1718711340708" data-listing-reading-time-sort="1" data-listing-word-count-sort="32">
     <a href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener" class="grid-item-link custom-link"> <!-- Added custom-link class -->
       </a><div class="quarto-grid-item card h-100 card-left"><a href="https://inseefrlab.github.io/funathon2024_sujet2/" target="_blank" rel="noopener" class="grid-item-link custom-link">
         
@@ -271,7 +301,22 @@ window.Quarto = {
             <div class="card-subtitle listing-subtitle custom-link"></div>
 
             
-              <div class="card-text listing-description delink custom-link"><br> Amener, pas à pas, à la conception voire à la mise à disposition d’un tableau de bord du trafic aérien avec <i class="fa-brands fa-r-project" aria-label="r-project"></i> ou <i class="fa-brands fa-python" aria-label="python"></i>.</div>
+              <div class="card-text listing-description delink custom-link"><br> Amener, pas à pas, à la conception voire à la mise à disposition d’un tableau de bord du trafic aérien avec <i class="fa-brands fa-r-project" aria-label="r-project"></i> ou <i class="fa-brands fa-python" aria-label="python"></i>. <br></div>
+            
+
+            
+              <br>
+              <div class="card-levels" style="margin-bottom: 1em;">
+                
+                  <span class="level-button level-debutant">Débutant</span>
+                
+                
+                  <span class="level-button level-intermediaire">Intermédiaire</span>
+                
+                
+                  <span class="level-button level-expert">Expert</span>
+                
+              </div>
             
 
             
@@ -305,7 +350,7 @@ window.Quarto = {
      <!-- Added custom-link class -->
   </div>
 
-  <div class="g-col-1" data-index="2" data-categories="Python,Dash,Visualisation,Déploiement d" application'="" data-listing-file-modified-sort="1718701862852" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
+  <div class="g-col-1" data-index="2" data-categories="Python,Dash,Visualisation,Déploiement d" application'="" data-listing-file-modified-sort="1718711340708" data-listing-reading-time-sort="1" data-listing-word-count-sort="13">
     <a href="https://flightradar-ui-demo.lab.sspcloud.fr" target="_blank" rel="noopener" class="grid-item-link custom-link"> <!-- Added custom-link class -->
       </a><div class="quarto-grid-item card h-100 card-left"><a href="https://flightradar-ui-demo.lab.sspcloud.fr" target="_blank" rel="noopener" class="grid-item-link custom-link">
         
@@ -319,7 +364,20 @@ window.Quarto = {
             <div class="card-subtitle listing-subtitle custom-link"></div>
 
             
-              <div class="card-text listing-description delink custom-link"><br> Reconstruction de l’interface utilisateur de FlightRadar24 avec Python <i class="fa-brands fa-python" aria-label="python"></i>.</div>
+              <div class="card-text listing-description delink custom-link"><br> Reconstruction de l’interface utilisateur de FlightRadar24 avec Python <i class="fa-brands fa-python" aria-label="python"></i>. <br></div>
+            
+
+            
+              <br>
+              <div class="card-levels" style="margin-bottom: 1em;">
+                
+                
+                  <span class="level-button level-intermediaire">Intermédiaire</span>
+                
+                
+                  <span class="level-button level-expert">Expert</span>
+                
+              </div>
             
 
             
@@ -353,7 +411,7 @@ window.Quarto = {
      <!-- Added custom-link class -->
   </div>
 
-  <div class="g-col-1" data-index="3" data-categories="Python,Web Scraping,Analyse de sentiment,NLP,SpaCy" data-listing-file-modified-sort="1718701862852" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+  <div class="g-col-1" data-index="3" data-categories="Python,Web Scraping,Analyse de sentiment,NLP,SpaCy" data-listing-file-modified-sort="1718711340708" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
     <a href="https://github.com/InseeFrLab/funathon2024_sujet4" target="_blank" rel="noopener" class="grid-item-link custom-link"> <!-- Added custom-link class -->
       </a><div class="quarto-grid-item card h-100 card-left"><a href="https://github.com/InseeFrLab/funathon2024_sujet4" target="_blank" rel="noopener" class="grid-item-link custom-link">
         
@@ -367,7 +425,18 @@ window.Quarto = {
             <div class="card-subtitle listing-subtitle custom-link"></div>
 
             
-              <div class="card-text listing-description delink custom-link"><br> Découverte des enjeux du nettoyage de champs textuels et de l’analyse de sentiments à partir de données scrapées sur Trustpilot</div>
+              <div class="card-text listing-description delink custom-link"><br> Découverte des enjeux du nettoyage de champs textuels et de l’analyse de sentiments à partir de données scrapées sur Trustpilot <br></div>
+            
+
+            
+              <br>
+              <div class="card-levels" style="margin-bottom: 1em;">
+                
+                
+                  <span class="level-button level-intermediaire">Intermédiaire</span>
+                
+                
+              </div>
             
 
             
