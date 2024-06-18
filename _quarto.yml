@@ -8,6 +8,8 @@ website:
       - href: index.qmd
         text: Home
       - about.qmd
+      - href: https://inseefrlab.github.io/funathon2024_slides/
+        text: Slides de présentation
 
 format:
   html:
