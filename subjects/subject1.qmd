@@ -3,7 +3,9 @@ title: "Visualisation des émissions de CO2 de liaisons aériennes"
 image: ../img/Aspect_de_la_carte.png
 number: 1
 categories:
-    - TODO
+    - R
+    - Visualisation
+    - API
 github: https://github.com/InseeFrLab/funathon2024_sujet1
 website: https://github.com/InseeFrLab/funathon2024_sujet1
 levels: ["Débutant", "Intermédiaire"]
