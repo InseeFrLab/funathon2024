@@ -7,7 +7,7 @@ categories:
     - Visualisation
     - API
 github: https://github.com/InseeFrLab/funathon2024_sujet1
-website: https://github.com/InseeFrLab/funathon2024_sujet1
+website: https://inseefrlab.github.io/funathon2024_sujet1/
 levels: ["Débutant", "Intermédiaire"]
 ---
 
