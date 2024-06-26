@@ -1,0 +1,9 @@
+---
+title: "Restitutions des sujets"
+---
+
+Quelques restitutions des sujets du 26 juin :
+
+<br>
+
+{{< video src="https://minio.lab.sspcloud.fr/projet-funathon/2024/diffusion/20240626_restitutions.mp4" controls="yes" >}}
